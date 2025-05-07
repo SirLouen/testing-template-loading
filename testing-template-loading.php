@@ -17,7 +17,7 @@ function test_locate_template_shortcode() {
         <h3>Testing locate_template() Function</h3>
         
         <?php
-        $template_file = 'functions.php';
+        $template_file = 'index.php';
         $template_result = locate_template($template_file, false, false);
         echo '<p><strong>Test 1 - Legitimate Template File:</strong> ';
         if ($template_result) {
